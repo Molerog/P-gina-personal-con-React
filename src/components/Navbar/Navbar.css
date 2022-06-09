@@ -1,0 +1,7 @@
+.flexContainerList{
+    display: flex;
+    justify-content: space-around;
+    background-color: beige;
+    padding: 0.5em;
+    font-size: 2em;
+}
