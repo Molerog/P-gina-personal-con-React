@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nuosu+SIL&display=swap');
+
+
+.tecnologia{
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    padding: 6em;
+    background-image: url("../../assets/abstract.webp");
+    -webkit-box-shadow: inset 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 10px 0px 0px rgba(0,0,0,0.75);
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    font-family: 'Montserrat', sans-serif, 'Nuosu SIL', serif; 
+    font-family: 'Bloody';
+    color:rgb(184, 32, 32);
+}
+
+.logo{
+    width: 5em;
+    height: 5em;
+    object-fit: cover;
+    border-radius: 50%;
+}

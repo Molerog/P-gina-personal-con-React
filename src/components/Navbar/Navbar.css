@@ -1,7 +1,19 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nuosu+SIL&display=swap'); */
+
 .flexContainerList{
     display: flex;
     justify-content: space-around;
-    background-color: beige;
-    padding: 0.5em;
+    padding: 2em;
+    font-size: 2em;
+    background-image: url("../../assets/abstract.webp");
+    background-position: top;
+    -webkit-box-shadow: inset 0px 0px 0px 10px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px 0px 0px 10px rgba(0,0,0,0.75);
+    box-shadow: inset 0px -25px 0px -15px rgb(0, 0, 0, 0.75);
+    font-family: 'fleshandblood';
+    
+}
+
+.contacto{
     font-size: 2em;
 }

@@ -1,29 +1,18 @@
-import React from 'react'
+// import React from 'react'
+// import HTML from '../../assets/HTML.svg'
 import './Home.css'
+import Image from '../../assets/Cazador.webp'
 
-const Home = ({objeto}) => {
-    const tecnologia = objeto.map(elemento => {
-        return (
-        <div>
-            <li>{elemento.nombre}</li>
-            <img src={elemento.img} alt="esto es una imagen" />
-        </div>
-            )
-    })
-  return (
-    <div className = 'mainContainer'>
-        <div>
+const Home = () => {
+  return (  
+    <div className = 'mainContainer '>
            <ul>
                <li>Nombre: Germán</li>
                <li>Apellido: Molero</li>
                <li>Edad: 34</li>
-               <li>Tecnologías adquiridas:</li>
-                    <ul>
-                        {tecnologia}
-                    </ul>
-            </ul> 
-        </div>
-        <div> FOTO </div>
+               <li>Profesión: Cazador de bestias</li>
+            </ul>
+            <img src={Image} alt="Bloodborne"/>
     </div>
   )
 }

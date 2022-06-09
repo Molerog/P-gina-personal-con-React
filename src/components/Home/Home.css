@@ -1,4 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nuosu+SIL&display=swap');
+
 .mainContainer{
     display:flex;
     justify-content: space-around;
+    padding: 2em;
+}
+
+.mainContainer ul li{
+    padding:1em 0;
+    font-size: 2em;
+    font-family: 'Montserrat', sans-serif, 'Nuosu SIL', serif;
+    color:white;
+    font-family: 'fleshandblood';
 }
