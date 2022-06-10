@@ -3,14 +3,14 @@
 import './Home.css'
 import Image from '../../assets/Cazador.webp'
 
-const Home = () => {
+const Home = ({objeto}) => {
   return (  
     <div className = 'mainContainer '>
            <ul>
-               <li>Nombre: Germán</li>
-               <li>Apellido: Molero</li>
-               <li>Edad: 34</li>
-               <li>Profesión: Cazador de bestias</li>
+               <li>Nombre: {objeto.info.nombre}</li>
+               <li>Ciudad: {objeto.info.ciudad}</li>
+               <li>Edad: {objeto.info.edad}</li>
+               <li>Profesión: {objeto.info.profesion}</li>
             </ul>
             <img src={Image} alt="Bloodborne"/>
     </div>

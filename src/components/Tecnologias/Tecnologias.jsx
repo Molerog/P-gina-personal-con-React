@@ -1,8 +1,7 @@
 import './Tecnologias.css'
 
-
 const Tecnologias = ({objeto}) => {
-    const tecnologia = objeto.map(elemento => {
+    const tecnologia = objeto.tecnologias.map(elemento => {
         return (
             <div key = {elemento.id}>               
             <img className = 'logo' src={elemento.img} alt={elemento.nombre} />
