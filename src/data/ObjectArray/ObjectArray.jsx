@@ -54,7 +54,7 @@ const tecnologias = [
 const info = {
   id: 1,
   nombre: 'Germán',
-  ciudad: 'Yharnman',
+  ciudad: 'Yharnam',
   edad: 34,
   profesion: 'Cazador de bestias'
 }

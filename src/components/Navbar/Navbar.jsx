@@ -5,6 +5,7 @@ const Navbar = () => {
   return (  
     <ul className = 'flexContainerList'>
         <li className = 'contacto'> Contacto </li>
+        <li> Sobre mí</li>
     </ul>
   )
 }

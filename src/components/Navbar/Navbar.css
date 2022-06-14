@@ -3,7 +3,7 @@
 .flexContainerList{
     display: flex;
     justify-content: space-around;
-    padding: 2em;
+    padding: 1.5em;
     font-size: 2em;
     background-image: url("../../assets/abstract.webp");
     background-position: top;
@@ -11,9 +11,6 @@
     -moz-box-shadow: inset 0px 0px 0px 10px rgba(0,0,0,0.75);
     box-shadow: inset 0px -25px 0px -15px rgb(0, 0, 0, 0.75);
     font-family: 'fleshandblood';
+    font-size: 3em;
+}
     
-}
-
-.contacto{
-    font-size: 2em;
-}

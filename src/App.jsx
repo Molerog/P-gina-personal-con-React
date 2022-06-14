@@ -1,21 +1,27 @@
-import './App.css';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+
+import "./App.css";
 // import HTML from './assets/HTML.svg'
-import Navbar from './components/Navbar/Navbar'
-import Home from './components/Home/Home'
-import Sobremi from './components/Sobremi/Sobremi'
-import Tecnologias from './components/Tecnologias/Tecnologias'
-import ObjectArray from './data/ObjectArray/ObjectArray'
+import Navbar from "./components/Navbar/Navbar";
+import Home from "./components/Home/Home";
+import Contact from "./components/Contact/Contact";
+import ObjectArray from "./data/ObjectArray/ObjectArray";
+import Tecnologias from "./components/Tecnologias/Tecnologias";
 
 function App() {
-  
   return (
-    <div>
+    <BrowserRouter>
       <Navbar />
-      <Home objeto = {ObjectArray} />
-      <Sobremi />
+      <div className="mainContainer ">
+        <Routes>
+          <Route path="/Home" element={<Home objeto={ObjectArray} />} />
+          <Route path="/Contact" element={<Contact />}/>
+        </Routes>
+      </div>
       <Tecnologias objeto = {ObjectArray} />
-    </div>
-  )
+
+    </BrowserRouter>
+  );
 }
 
 export default App;
