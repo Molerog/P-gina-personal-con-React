@@ -1,8 +1,36 @@
-.mainContainer2{
+.mainContainer{
     display:flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-direction: column;
+    align-items: center;
     padding: 2em;
     min-height: 43vh;
     color:white;
 }
+
+.mainContainer form{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    gap:2em;
+    width:20em;
+}
+
+.mainContainer form input{
+    padding:1em;
+}
+
+.mainContainer form button{
+    border-radius: 20em;
+    width: 40%;
+    height: 3em;
+}
+
+.info{
+    font-family: 'fleshandblood';
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+
+
+

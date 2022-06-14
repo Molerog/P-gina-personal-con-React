@@ -1,11 +1,14 @@
 // import React from 'react'
 import './Navbar.css'
+import {Link} from 'react-router-dom'
+
 
 const Navbar = () => {
   return (  
     <ul className = 'flexContainerList'>
-        <li className = 'contacto'> Contacto </li>
-        <li> Sobre mí</li>
+        <Link to = '/'>Inicio</Link>
+        <Link to = '/Home'> Sobre mí </Link>
+        <Link to = '/Contact'> Contacto </Link>
     </ul>
   )
 }

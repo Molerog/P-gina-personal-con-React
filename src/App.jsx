@@ -7,6 +7,7 @@ import Home from "./components/Home/Home";
 import Contact from "./components/Contact/Contact";
 import ObjectArray from "./data/ObjectArray/ObjectArray";
 import Tecnologias from "./components/Tecnologias/Tecnologias";
+import Inicio from "./components/Inicio/Inicio";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Navbar />
       <div className="mainContainer ">
         <Routes>
+          <Route path="/" element={<Inicio objeto ={ObjectArray}/>}/>
           <Route path="/Home" element={<Home objeto={ObjectArray} />} />
           <Route path="/Contact" element={<Contact />}/>
         </Routes>

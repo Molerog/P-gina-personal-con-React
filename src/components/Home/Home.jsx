@@ -5,6 +5,8 @@ import Image from '../../assets/Cazador.webp'
 import Sobremi from '../Sobremi/Sobremi'
 
 
+
+
 const Home = ({objeto}) => {
   return (  
     <div className = 'home'>
@@ -17,7 +19,7 @@ const Home = ({objeto}) => {
             </ul>
             <img src={Image} alt="Bloodborne"/>
       </div>
-            <Sobremi />
+            <Sobremi />        
     </div>
   )
 }

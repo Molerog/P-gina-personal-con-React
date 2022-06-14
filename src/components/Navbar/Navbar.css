@@ -1,5 +1,7 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nuosu+SIL&display=swap'); */
 
+
+
 .flexContainerList{
     display: flex;
     justify-content: space-around;
@@ -12,5 +14,14 @@
     box-shadow: inset 0px -25px 0px -15px rgb(0, 0, 0, 0.75);
     font-family: 'fleshandblood';
     font-size: 3em;
+}
+
+.flexContainerList a{
+    text-decoration: none;
+    cursor:pointer
+}
+
+.flexContainerList a:hover{
+    text-decoration: underline;
 }
     
